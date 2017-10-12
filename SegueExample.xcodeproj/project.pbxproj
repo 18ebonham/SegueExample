@@ -12,6 +12,8 @@
 		0FEA9DC61F8D2C5D00AE13F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FEA9DC41F8D2C5D00AE13F8 /* Main.storyboard */; };
 		0FEA9DC81F8D2C5D00AE13F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FEA9DC71F8D2C5D00AE13F8 /* Assets.xcassets */; };
 		0FEA9DCB1F8D2C5E00AE13F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FEA9DC91F8D2C5E00AE13F8 /* LaunchScreen.storyboard */; };
+		0FEA9DD31F8D309300AE13F8 /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA9DD21F8D309300AE13F8 /* HelloViewController.swift */; };
+		0FEA9DD51F8FE39D00AE13F8 /* LastNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA9DD41F8FE39D00AE13F8 /* LastNameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0FEA9DC71F8D2C5D00AE13F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FEA9DCA1F8D2C5E00AE13F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FEA9DCC1F8D2C5E00AE13F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FEA9DD21F8D309300AE13F8 /* HelloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
+		0FEA9DD41F8FE39D00AE13F8 /* LastNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastNameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				0FEA9DC01F8D2C5D00AE13F8 /* AppDelegate.swift */,
 				0FEA9DC21F8D2C5D00AE13F8 /* ViewController.swift */,
 				0FEA9DC41F8D2C5D00AE13F8 /* Main.storyboard */,
+				0FEA9DD41F8FE39D00AE13F8 /* LastNameViewController.swift */,
+				0FEA9DD21F8D309300AE13F8 /* HelloViewController.swift */,
 				0FEA9DC71F8D2C5D00AE13F8 /* Assets.xcassets */,
 				0FEA9DC91F8D2C5E00AE13F8 /* LaunchScreen.storyboard */,
 				0FEA9DCC1F8D2C5E00AE13F8 /* Info.plist */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FEA9DD31F8D309300AE13F8 /* HelloViewController.swift in Sources */,
 				0FEA9DC31F8D2C5D00AE13F8 /* ViewController.swift in Sources */,
 				0FEA9DC11F8D2C5D00AE13F8 /* AppDelegate.swift in Sources */,
+				0FEA9DD51F8FE39D00AE13F8 /* LastNameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EQ38833CNC;
 				INFOPLIST_FILE = SegueExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Bonham.SegueExample;
@@ -289,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EQ38833CNC;
 				INFOPLIST_FILE = SegueExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Bonham.SegueExample;
